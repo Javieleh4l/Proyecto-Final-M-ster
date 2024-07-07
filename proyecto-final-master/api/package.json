@@ -1,0 +1,33 @@
+{
+  "name": "proyecto-final-master",
+  "version": "1.0.0",
+  "description": "Backend para el proyecto final de Máster Full Stack III de desarrollo de una red social con Angular y Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Javieleh4l/Proyecto-Final-M-ster"
+  },
+  "author": "Javier Y Jose Luis",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.2",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.30.1",
+    "mongoose": "^8.3.2",
+    "mongoose-pagination": "^1.0.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

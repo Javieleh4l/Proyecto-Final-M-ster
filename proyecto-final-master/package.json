@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-final-master",
+  "version": "1.0.0",
+  "description": "Descripción del proyecto",
+  "scripts": {
+    "start:both": "concurrently \"cd client && npm start\" \"cd api && npm start\""
+  },
+  "dependencies": {
+    "dependencies-del-proyecto": "^1.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
